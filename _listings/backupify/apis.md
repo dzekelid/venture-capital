@@ -6,11 +6,25 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Venture Capital
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/backupify/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Backupify - A simple method to test authentication of a vendor access token.
+    The response body is empty JSON object.
+  x-api-slug: v1authenticate-vendor-get
+  description: A simple method to test authentication of a vendor access token. the
+    response body is empty json object..
+  image: ""
+  humanURL: http://backupify.com
+  baseURL: https://api.backupify.com//
+  tags: API Not Found, API Provider, Backups, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/backupify/v1authenticate-vendor-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/backupify/v1authenticate-vendor-get-openapi.md
 - name: Backupify - A simple method to test authentication of a vendor access token.
     The response body is empty JSON object.
   x-api-slug: v1authenticate-vendor-get

@@ -1,0 +1,147 @@
+{
+	"name": "Streadata.io API Gallery - Venture Capital",
+	"description": "This is a repository of venture capital APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/venture-capital.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://venture-capital.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Comcast",
+			"x-api-slug": "comcast",
+			"description": "Save on XFINITY Digital Cable TV, High Speed Internet and Home Phone Services. Enjoy entertainment your way with great deals on XFINITY by Comcast.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2643-comcast.jpg",
+			"humanURL": "http://www.comcast.com/",
+			"baseURL": "https:///",
+			"tags": "Venture Capital",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/comcast/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Union Square Ventures",
+			"x-api-slug": "union-square-ventures",
+			"description": "Union Square Ventures is an early stage venture capital firm based in New York City. We invest in young companies that use information technology in innovative ways to create high growth business opportunities in web applications and services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2702-union-square-ventures.jpg",
+			"humanURL": "https://www.usv.com/",
+			"baseURL": "https:///",
+			"tags": "Venture Capital",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/union-square-ventures/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intuit",
+			"x-api-slug": "intuit",
+			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
+			"humanURL": "https://intuit.com",
+			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
+			"tags": "Venture Capital",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Actility",
+			"x-api-slug": "actility",
+			"description": "Actility is the leader in low power wide area (LoRaWAN and 3GPP) network connectivity management for the Internet of Things: the ThingPark platform",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg",
+			"humanURL": "https://www.actility.com",
+			"baseURL": "https://dx-api.thingpark.com//maker/v011/api",
+			"tags": "Venture Capital",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/actility/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Backupify",
+			"x-api-slug": "backupify",
+			"description": "",
+			"image": "",
+			"humanURL": "http://backupify.com",
+			"baseURL": "https://api.backupify.com//",
+			"tags": "Venture Capital",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/backupify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Las Olas VC",
+			"x-api-slug": "las-olas-vc",
+			"description": "Las Olas Venture Capital is a new Florida-based early stage fund that invests in startups in a variety of industries. Our mission is to find outstanding entrepreneurs in non-obvious places and maximize their impact by connecting them to networks of capital, talent, and customers in well-established startup ecosystems. We invest in extraordinary people who are building the future. This means technology that can redefine existing industries and create new ones. We call these people superheroes and transformers. They typically have asymmetrical insight into a particular industry and the superpowers for building products that create ascending user networks, which as a result drive transformational value.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28765-www-lasolasvc-com.jpg",
+			"humanURL": "http://www.lasolasvc.com",
+			"baseURL": "https:///",
+			"tags": "Venture Capital",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/las-olas-vc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Venture Capital",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Venture Capital",
+	"include": [
+		{
+			"name": "Comcast",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/comcast/apis.yaml"
+		},
+		{
+			"name": "Union Square Ventures",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/union-square-ventures/apis.yaml"
+		},
+		{
+			"name": "Intuit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/apis.yaml"
+		},
+		{
+			"name": "Actility",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/actility/apis.yaml"
+		},
+		{
+			"name": "Backupify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/backupify/apis.yaml"
+		},
+		{
+			"name": "Las Olas VC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/las-olas-vc/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

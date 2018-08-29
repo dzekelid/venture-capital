@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: Dezrez
 x-complete: 0
 info:
-  title: Dezrez Edit whether the vendor feedback for the viewing has been reviewed.
+  title: Dezrez Record that the feedback for a Valuation was notified to the vendor.
   version: 1.0.0
-  description: Edit whether the vendor feedback for the viewing has been reviewed..
+  description: Record that the feedback for a valuation was notified to the vendor..
 host: api.dezrez.com
 basePath: /
 schemes:

@@ -8,11 +8,529 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intui
 x-kinRank: "8"
 x-alexaRank: "263"
 tags: Venture Capital
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: QuickBooks Online V3 API - Get Reports Vendor Balance
+  x-api-slug: reportsvendorbalance-get
+  description: "Report - Vendor Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/vendor%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/reportsvendorbalance-get-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor
+  x-api-slug: vendor-post
+  description: |-
+    Update a vendor object
+    Method : POST
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor Credit
+  x-api-slug: vendorcredit-post
+  description: "Delete a vendorcredit object by Id\nMethod : POST\n\nSample response
+    body \n\n{\n  \"VendorCredit\": {\n    \"domain\": \"QBO\",\n    \"status\": \"Deleted\",\n
+    \   \"Id\": \"185\"\n  },\n  \"time\": \"2016-09-02T03:14:13.909-07:00\"\n}"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit-post-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor
+  x-api-slug: vendor70-get
+  description: |-
+    Read a vendor object by Id
+    Method : GET
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor70-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor Credit
+  x-api-slug: vendorcredit185-get
+  description: |-
+    Read a vendorcredit object by Id
+    Method : GET
+
+    Please change the VendorCredit it from 165 to a valid VendorCredit objectId which exists in your QBO account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit185-get-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Vendor Balance
+  x-api-slug: reportsvendorbalance-get
+  description: "Report - Vendor Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/vendor%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/reportsvendorbalance-get-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Vendor Balance
+  x-api-slug: reportsvendorbalance-get
+  description: "Report - Vendor Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/vendor%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/reportsvendorbalance-get-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Vendor Balance
+  x-api-slug: reportsvendorbalance-get
+  description: "Report - Vendor Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/vendor%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/reportsvendorbalance-get-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor
+  x-api-slug: vendor-post
+  description: |-
+    Update a vendor object
+    Method : POST
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor
+  x-api-slug: vendor-post
+  description: |-
+    Update a vendor object
+    Method : POST
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor
+  x-api-slug: vendor-post
+  description: |-
+    Update a vendor object
+    Method : POST
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor Credit
+  x-api-slug: vendorcredit-post
+  description: "Delete a vendorcredit object by Id\nMethod : POST\n\nSample response
+    body \n\n{\n  \"VendorCredit\": {\n    \"domain\": \"QBO\",\n    \"status\": \"Deleted\",\n
+    \   \"Id\": \"185\"\n  },\n  \"time\": \"2016-09-02T03:14:13.909-07:00\"\n}"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor Credit
+  x-api-slug: vendorcredit-post
+  description: "Delete a vendorcredit object by Id\nMethod : POST\n\nSample response
+    body \n\n{\n  \"VendorCredit\": {\n    \"domain\": \"QBO\",\n    \"status\": \"Deleted\",\n
+    \   \"Id\": \"185\"\n  },\n  \"time\": \"2016-09-02T03:14:13.909-07:00\"\n}"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor Credit
+  x-api-slug: vendorcredit-post
+  description: "Delete a vendorcredit object by Id\nMethod : POST\n\nSample response
+    body \n\n{\n  \"VendorCredit\": {\n    \"domain\": \"QBO\",\n    \"status\": \"Deleted\",\n
+    \   \"Id\": \"185\"\n  },\n  \"time\": \"2016-09-02T03:14:13.909-07:00\"\n}"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit-post-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor
+  x-api-slug: vendor70-get
+  description: |-
+    Read a vendor object by Id
+    Method : GET
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor70-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor
+  x-api-slug: vendor70-get
+  description: |-
+    Read a vendor object by Id
+    Method : GET
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor70-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor
+  x-api-slug: vendor70-get
+  description: |-
+    Read a vendor object by Id
+    Method : GET
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor70-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor Credit
+  x-api-slug: vendorcredit185-get
+  description: |-
+    Read a vendorcredit object by Id
+    Method : GET
+
+    Please change the VendorCredit it from 165 to a valid VendorCredit objectId which exists in your QBO account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit185-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor Credit
+  x-api-slug: vendorcredit185-get
+  description: |-
+    Read a vendorcredit object by Id
+    Method : GET
+
+    Please change the VendorCredit it from 165 to a valid VendorCredit objectId which exists in your QBO account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit185-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor Credit
+  x-api-slug: vendorcredit185-get
+  description: |-
+    Read a vendorcredit object by Id
+    Method : GET
+
+    Please change the VendorCredit it from 165 to a valid VendorCredit objectId which exists in your QBO account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit185-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor Credit
+  x-api-slug: vendorcredit185-get
+  description: |-
+    Read a vendorcredit object by Id
+    Method : GET
+
+    Please change the VendorCredit it from 165 to a valid VendorCredit objectId which exists in your QBO account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit185-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor Credit
+  x-api-slug: vendorcredit185-get
+  description: |-
+    Read a vendorcredit object by Id
+    Method : GET
+
+    Please change the VendorCredit it from 165 to a valid VendorCredit objectId which exists in your QBO account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit185-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor Credit
+  x-api-slug: vendorcredit185-get
+  description: |-
+    Read a vendorcredit object by Id
+    Method : GET
+
+    Please change the VendorCredit it from 165 to a valid VendorCredit objectId which exists in your QBO account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit185-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor Credit
+  x-api-slug: vendorcredit185-get
+  description: |-
+    Read a vendorcredit object by Id
+    Method : GET
+
+    Please change the VendorCredit it from 165 to a valid VendorCredit objectId which exists in your QBO account
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit185-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor
+  x-api-slug: vendor70-get
+  description: |-
+    Read a vendor object by Id
+    Method : GET
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor70-get-openapi.md
+- name: QuickBooks Online V3 API - Get Vendor
+  x-api-slug: vendor70-get
+  description: |-
+    Read a vendor object by Id
+    Method : GET
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor70-get-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor Credit
+  x-api-slug: vendorcredit-post
+  description: "Delete a vendorcredit object by Id\nMethod : POST\n\nSample response
+    body \n\n{\n  \"VendorCredit\": {\n    \"domain\": \"QBO\",\n    \"status\": \"Deleted\",\n
+    \   \"Id\": \"185\"\n  },\n  \"time\": \"2016-09-02T03:14:13.909-07:00\"\n}"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor Credit
+  x-api-slug: vendorcredit-post
+  description: "Delete a vendorcredit object by Id\nMethod : POST\n\nSample response
+    body \n\n{\n  \"VendorCredit\": {\n    \"domain\": \"QBO\",\n    \"status\": \"Deleted\",\n
+    \   \"Id\": \"185\"\n  },\n  \"time\": \"2016-09-02T03:14:13.909-07:00\"\n}"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor Credit
+  x-api-slug: vendorcredit-post
+  description: "Delete a vendorcredit object by Id\nMethod : POST\n\nSample response
+    body \n\n{\n  \"VendorCredit\": {\n    \"domain\": \"QBO\",\n    \"status\": \"Deleted\",\n
+    \   \"Id\": \"185\"\n  },\n  \"time\": \"2016-09-02T03:14:13.909-07:00\"\n}"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor Credit
+  x-api-slug: vendorcredit-post
+  description: "Delete a vendorcredit object by Id\nMethod : POST\n\nSample response
+    body \n\n{\n  \"VendorCredit\": {\n    \"domain\": \"QBO\",\n    \"status\": \"Deleted\",\n
+    \   \"Id\": \"185\"\n  },\n  \"time\": \"2016-09-02T03:14:13.909-07:00\"\n}"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendorcredit-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor
+  x-api-slug: vendor-post
+  description: |-
+    Update a vendor object
+    Method : POST
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor
+  x-api-slug: vendor-post
+  description: |-
+    Update a vendor object
+    Method : POST
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor-post-openapi.md
+- name: QuickBooks Online V3 API - Post Vendor
+  x-api-slug: vendor-post
+  description: |-
+    Update a vendor object
+    Method : POST
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/vendor-post-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Vendor Balance
+  x-api-slug: reportsvendorbalance-get
+  description: "Report - Vendor Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/vendor%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/reportsvendorbalance-get-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Vendor Balance
+  x-api-slug: reportsvendorbalance-get
+  description: "Report - Vendor Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/vendor%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/reportsvendorbalance-get-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Vendor Balance
+  x-api-slug: reportsvendorbalance-get
+  description: "Report - Vendor Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/vendor%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/reportsvendorbalance-get-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Vendor Balance
+  x-api-slug: reportsvendorbalance-get
+  description: "Report - Vendor Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/vendor%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/venture-capital/master/_listings/intuit/reportsvendorbalance-get-openapi.md
 x-common:
 - type: x-postman-collection
   url: https://www.getpostman.com/collections/554420530884cde6b794

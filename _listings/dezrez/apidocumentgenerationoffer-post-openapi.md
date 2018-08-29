@@ -3,9 +3,11 @@ swagger: "2.0"
 x-collection-name: Dezrez
 x-complete: 0
 info:
-  title: Dezrez Edit whether the vendor feedback for the viewing has been reviewed.
+  title: Dezrez Generates a correspondence notifying the vendor of an offer.  Uses
+    default values where possible.
   version: 1.0.0
-  description: Edit whether the vendor feedback for the viewing has been reviewed..
+  description: Generates a correspondence notifying the vendor of an offer.  uses
+    default values where possible..
 host: api.dezrez.com
 basePath: /
 schemes:

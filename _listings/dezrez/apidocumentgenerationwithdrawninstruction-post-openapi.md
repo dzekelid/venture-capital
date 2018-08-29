@@ -3,9 +3,11 @@ swagger: "2.0"
 x-collection-name: Dezrez
 x-complete: 0
 info:
-  title: Dezrez Edit whether the vendor feedback for the viewing has been reviewed.
+  title: Dezrez Generates a Withdrawn Instruction letter correspondence to the vendor
+    of a particular marketing role
   version: 1.0.0
-  description: Edit whether the vendor feedback for the viewing has been reviewed..
+  description: Generates a withdrawn instruction letter correspondence to the vendor
+    of a particular marketing role.
 host: api.dezrez.com
 basePath: /
 schemes:
